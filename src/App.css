@@ -10,12 +10,12 @@
 .App-header {
   background-color: #222;
   height: 150px;
-  padding: 20px;
+  padding: 40px;
   color: white;
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 3em;
 }
 
 .App-intro {
@@ -27,45 +27,4 @@
   to { transform: rotate(360deg); }
 }
 
-.Github-logo {
-  fill: #ffc107;
-}
 
-.Github-label {
-  color: #ffc107;
-  font-weight: bold;
-}
-
-.Github-link:hover {
-  border-style: solid;
-  border-color: #ffc107;
-}
-
-.Linkedin-logo {
-  fill: #0077B5;
-}
-
-.Linkedin-label {
-  color: #0077B5;
-  font-weight: bold;
-}
-
-.Linkedin-link:hover {
-  border-style: solid;
-  border-color: #0077B5;
-}
-
-.Email-logo {
-  fill: #ff5722;
-}
-
-.Email-label {
-  color: #ff5722;
-  font-weight: bold;
-  
-}
-
-.Email-link:hover {
-  border-style: solid;
-  border-color: #ff5722;
-}
