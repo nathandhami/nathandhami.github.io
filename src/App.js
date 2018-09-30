@@ -59,6 +59,12 @@ class App extends Component {
             </CardContent>
           </Card>
         </div>
+        <div className="container">
+        <br></br>
+        <Card style={cardStyle}>
+          <b></b>
+        </Card> 
+        </div>
       </div>
     );
   }
