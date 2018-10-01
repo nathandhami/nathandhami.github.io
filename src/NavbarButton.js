@@ -1,5 +1,5 @@
 import React from 'react';
-import { withStyles, MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+import {MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 
 const theme = createMuiTheme({
@@ -11,8 +11,6 @@ const theme = createMuiTheme({
 });
 
 function NavbarButton(props) {
-  const { classes } = props;
-
   return (
       <MuiThemeProvider theme={theme}>
         <Button className="navbar-btn" variant="outlined" color="primary">

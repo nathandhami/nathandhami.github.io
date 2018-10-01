@@ -2,10 +2,10 @@
 import React, {Component} from 'react';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
-import CardActions from '@material-ui/core/CardActionArea';
 import CardHeader from '@material-ui/core/CardHeader';
 import './Contact.scss'
 import Grid from '@material-ui/core/Grid';
+
 class ContactCard extends Component {
     render() {
         var cardStyle = {

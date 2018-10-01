@@ -1,15 +1,9 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.scss';
-import githubLogo from './github-circle.svg';
 import ContactCard from './ContactCard';
 import Footer from './Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import AppBar from '@material-ui/core/AppBar';
 import NavbarButton from './NavbarButton';
-import Particles from 'react-particles-js';
-import purple from '@material-ui/core/colors/purple';
-
 
 class App extends Component {
   render() {
