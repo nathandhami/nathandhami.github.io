@@ -7,6 +7,7 @@ import Footer from './Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AppBar from '@material-ui/core/AppBar';
 import NavbarButton from './NavbarButton';
+import Particles from 'react-particles-js';
 import purple from '@material-ui/core/colors/purple';
 
 
@@ -20,7 +21,7 @@ class App extends Component {
             <NavbarButton>Home</NavbarButton>
         </header>
         <p className="App-intro">
-        </p>
+        </p>        
         <div className="container">
           <ContactCard></ContactCard>
         </div>
